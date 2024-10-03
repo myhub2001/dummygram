@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://<myhub2001>.github.io/<dummygram>/",
+  "homepage": "https://<narayan954>.github.io/<dummygram>/",
   "scripts": {
     "start": "vite --port=3000",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview",
-    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\"",
+    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,css}\"",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -23,11 +23,11 @@
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.11.11",
-    "@mui/material": "^5.13.6",
+    "@mui/material": "^5.14.20",
     "@mui/styles": "^5.13.2",
     "emoji-picker-react": "^4.4.10",
     "file-saver": "^2.0.5",
-    "firebase": "^9.18.0",
+    "firebase": "^10.12.2",
     "notistack": "^3.0.1",
     "react": "^18.2.0",
     "react-color": "^2.19.3",
@@ -51,7 +51,7 @@
     "husky": "^8.0.3",
     "prettier": "^2.8.8",
     "react-error-overlay": "^6.0.11",
-    "vite": "^4.2.0"
+    "vite": "^4.5.3"
   },
   "description": "A social media app built with React, Firebase, and Material-UI.",
   "main": "index.js",
@@ -62,11 +62,11 @@
     "material-ui",
     "social-media"
   ],
-  "author": "myhub2001",
+  "author": "narayan954",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myhub2001/dummygram.git"
+    "url": "git+https://github.com/narayan954/dummygram.git"
   },
   "bugs": {
     "url": "https://github.com/narayan954/dummygram/issues"
